@@ -4,7 +4,7 @@
 <img src="https://github.com/user-attachments/assets/3644d99a-ca7a-4262-8e90-74997b2a4a23" alt="Image 3" width="200" />
 
 ---
-# MY SOLUTOIN
+# MY SOLUTION
 
 **DOGE Access Suite** is a unified Python tool that helps you manage Dogecoin addresses and access your funds. With this suite you can:
 
