@@ -1,5 +1,11 @@
-# DOGE-CHALLENGE
+# CHAINANYSIS DOGE-CHALLENGE
+<img src="https://github.com/user-attachments/assets/b623f5b6-6ae4-40d7-bc92-adc70d3dcb27" alt="Image 1" width="200" />
+<img src="https://github.com/user-attachments/assets/4882a1ba-46d3-45fc-a531-8252ef12053d" alt="Image 2" width="200" />
+<img src="https://github.com/user-attachments/assets/3644d99a-ca7a-4262-8e90-74997b2a4a23" alt="Image 3" width="200" />
+
 ---
+# MY SOLUTOIN
+
 **DOGE Access Suite** is a unified Python tool that helps you manage Dogecoin addresses and access your funds. With this suite you can:
 
 - **Generate DOGE Addresses:** Create a set of Dogecoin addresses using either pre‑SLIP0044 (coin type 0) or post‑SLIP0044 (coin type 3) derivation paths.
