@@ -424,16 +424,13 @@ def export_csv():
 def main_menu():
     while True:
         print("=" * 50)
-        title = "DOGE Access Suite"
-        subtitle = ("This tool helps you generate DOGE addresses, check for transaction activity & funds,\n"
-                    "generate WIF keys for addresses with transaction history, and export your data to CSV.")
+        title = "DOGE WALLET SCAN"
         print(title.center(50))
-        print(subtitle.center(50))
         print("=" * 50)
         print("1. Generate DOGE addresses")
-        print("2. Check DOGE addresses for transaction activity & funds with BlockDaemon API")
-        print("3. Generate WIF Private Keys for DOGE addresses with transaction history")
-        print("4. Create CSV of database information for WIF generated rows")
+        print("2. Check DOGE addresses (BlockDaemon API)")
+        print("3. Generate WIF Private Keys")
+        print("4. Export CSV of Addesses with WIF Private Keys")
         print("5. Exit program")
         choice = input("Enter your choice (1-5): ").strip()
         if choice == "1":
