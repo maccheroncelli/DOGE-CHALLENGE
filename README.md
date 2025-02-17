@@ -6,7 +6,7 @@
 ---
 # SOLUTION
 
-**DOGE Access Suite** is a unified Python tool that helps you manage Dogecoin addresses and access your funds. With this suite you can:
+**DOGE WALLET SCAN** is a Python tool that helps you locate and access your funds. With this suite you can:
 
 - **Generate DOGE Addresses:** Create a set of Dogecoin addresses using either pre‑SLIP0044 (coin type 0) or post‑SLIP0044 (coin type 3) derivation paths.
 - **Check Address Activity & Funds:** Query the BlockDaemon API to check for transaction activity and confirmed balances on your generated addresses.
@@ -76,15 +76,14 @@ You will see a menu similar to:
 
 ```
 ==================================================
-              DOGE Access Suite
-This tool helps you generate DOGE addresses, check for transaction activity & funds,
-generate WIF keys for addresses with transaction history, and export your data to CSV.
+                 DOGE WALLET SCAN
 ==================================================
 1. Generate DOGE addresses
-2. Check DOGE addresses for transaction activity & funds with BlockDaemon API
-3. Generate WIF Private Keys for DOGE addresses with transaction history
-4. Create CSV of database information for WIF generated rows
+2. Check DOGE addresses (BlockDaemon API)
+3. Generate WIF Private Keys
+4. Export CSV of Addesses with WIF Private Keys
 5. Exit program
+Enter your choice (1-5):
 ```
 
 Enter the number corresponding to your desired operation. After each step, you’ll be returned to the main menu.
@@ -108,6 +107,7 @@ Enter the number corresponding to your desired operation. After each step, you�
 
 - **Output:**  
   - Summary details (starting & finishing derivation paths, total addresses generated) are displayed.
+  - Database is created with generated addresses, and stores the entered Private Key.
   - The tool returns to the main menu upon completion.
 
 ### 2. Check DOGE Addresses for Funds
