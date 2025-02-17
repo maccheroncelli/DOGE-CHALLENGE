@@ -430,7 +430,7 @@ def main_menu():
         print("1. Generate DOGE addresses")
         print("2. Check DOGE addresses (BlockDaemon API)")
         print("3. Generate WIF Private Keys")
-        print("4. Export CSV of Addesses with WIF Private Keys")
+        print("4. Export CSV of Addresses with WIF Private Keys")
         print("5. Exit program")
         choice = input("Enter your choice (1-5): ").strip()
         if choice == "1":
