@@ -69,7 +69,7 @@ pip install bip_utils bip32 mnemonic requests
 Run the main script with:
 
 ```bash
-python DOGE_Access_Suite.py
+python DOGE_WALLET_SCAN.py
 ```
 
 You will see a menu similar to:
