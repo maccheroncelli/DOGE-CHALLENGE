@@ -16,7 +16,7 @@ import binascii, base58
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Constants and DB file
-DB_FILE = "dogecoin_addresses.db"
+DB_FILE = "DOGECOIN.db"  # Updated database name
 DOGECOIN_PREFIX = b'\x1e'      # For address generation (P2PKH)
 DOGECOIN_WIF_PREFIX = b'\x9e'  # For WIF conversion
 
