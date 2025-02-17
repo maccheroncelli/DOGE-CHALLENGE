@@ -81,7 +81,7 @@ You will see a menu similar to:
 1. Generate DOGE addresses
 2. Check DOGE addresses (BlockDaemon API)
 3. Generate WIF Private Keys
-4. Export CSV of Addesses with WIF Private Keys
+4. Export CSV of Addresses with WIF Private Keys
 5. Exit program
 Enter your choice (1-5):
 ```
